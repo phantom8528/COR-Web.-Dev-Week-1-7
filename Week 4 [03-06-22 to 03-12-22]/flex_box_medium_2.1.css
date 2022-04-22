@@ -1,0 +1,32 @@
+/*
+Canvas, Module 3, Flex Box - Medium 2.1
+----------------------------------------------
+Navigation Bar
+
+*/
+body{
+    margin: 20px;
+    width: 1440px
+}
+
+.top-navbar{
+    width: 720px;
+    padding: 20px;
+    height: 63px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-menu-options{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+/* .navbar-item{
+
+} */

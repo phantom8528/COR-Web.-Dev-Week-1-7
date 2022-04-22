@@ -1,0 +1,17 @@
+#display{
+    height:100px;
+    background-color: black;
+    padding:5px;
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#container{
+    width:200px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}

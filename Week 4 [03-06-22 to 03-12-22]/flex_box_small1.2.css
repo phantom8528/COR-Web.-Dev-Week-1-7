@@ -1,0 +1,39 @@
+body{
+    margin:0;
+}
+
+.flex-container{    /*<-- Parent Flex Box*/
+    min-height: 100vh;
+    display: flex;
+    align-items: stretch;
+
+
+
+
+}
+
+.item-1,
+.item-2,
+.item-3{
+    flex-grow: 1;
+    display: flex; /*<-- Nested flex box */
+    background-color: black;
+    padding: 30x;
+    font-size: 40px;
+    color: black; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item-1{
+    background-color: #ff5f5f;
+}
+
+.item-2{
+    background-color: #5fafff;
+}
+
+.item-3{
+    background-color: #ffff5f;
+}

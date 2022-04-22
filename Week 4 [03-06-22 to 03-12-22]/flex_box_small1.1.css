@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+}
+
+#container{
+    min-height: 100vh;
+    display:flex;
+    /* background-color: black; */
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 200px;
+    height: 50px;
+    background-color: darkgreen;
+    color: white;}
